@@ -38,4 +38,7 @@ public class CategoriaDAO {
             System.out.println(e.getMessage());
         }
     }
+    public String pesquisar(int id){
+        sql= "select * from java_categoria where id = ?";
+    }
 }
